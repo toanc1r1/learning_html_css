@@ -1,61 +1,77 @@
-  div
-  {
-      
+ 
+  
+  div{ 
       font-size: 20px;
       text-align:justify;
   }
   
-    *
-    {
+    *{
        color :black;
     }
-    img
-    {
+    img{
+      margin: 110px 0px 0px 50px ;
       border-width:3px;
       border-style:solid;
       width:50px;
       height:50px;
-      margin-left: 10px;
+      top: 50;
+      
 
     }
-    .tt
-    {
+    .tt{
       font-size: 25px;
+     
+      /* display: flex; */
     }
-    a
-    {
+    #sn{
+      
+    }
+    a{
+      
       color :var(--1);
       margin-top: px;
       margin-left:10px;
     }
-    :root
-    {
+    a:active {
+      color :red
+    }
+    :root{
       --1: lightblue; 
     }
-    #td
-    {
+    #td{
       font-size:30px;
-      color:brown
+     
     }
-    .box1
-    {
+    h1::selection{
+      color :dimgray
+    }
+    h1::first-letter{
+      color:brown;
+      font-size: 55px;
+      
+    }
+    .box1{
       display:flex;
       align-items:center;
       justify-content: center;
       background-color:aliceblue;
-      width: 300px;
-      height:30px;
+      width: 325px;
+      height:50px;
       border: 10px double black ;
       margin: 0px 0px 0px 37%;
+      position:fixed;
+      top :0;
       
       /* border-style: ; */
       padding: 7px  ; 
     }
-    .TTCN
-    {
+    .TTCN{
       border-width: 3px;
       border-style:solid;
-      margin-left:10px;
+      margin-left:50px;
 
+    }
+    body{
+      height:1000px;
     }
    
