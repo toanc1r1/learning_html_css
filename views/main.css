@@ -4,12 +4,11 @@
       font-size: 20px;
       text-align:justify;
   }
-  
-    *{
+    /* *{
        color :black;
-    }
+    } */
     img{
-      margin: 110px 0px 0px 50px ;
+      /* margin: 110px 0px 0px 50px ; */
       border-width:3px;
       border-style:solid;
       width:50px;
@@ -27,51 +26,104 @@
       
     }
     a{
-      
       color :var(--1);
       margin-top: px;
       margin-left:10px;
     }
     a:active {
-      color :red
+      color :#b3b3b3;
     }
-    :root{
-      --1: lightblue; 
-    }
+    /* :root{
+      --1: ; 
+    } */
     #td{
       font-size:30px;
-     
     }
-    h1::selection{
+    li::selection{
       color :dimgray
     }
-    h1::first-letter{
+    /* li::first-letter{
       color:brown;
       font-size: 55px;
-      
-    }
+    } */
     .box1{
+      width: 100%;
+      height:50px;
+      /* margin: 0px 0px 0px 37%; */
+      justify-content:space-between ;
+      position:sticky;
+      top :0;
+      /* border-style: ; */
+      padding: 0  ; 
+    }
+    .idea{
+      color:#ffffff; 
+      justify-content:space-between ;
       display:flex;
       align-items:center;
-      justify-content: center;
-      background-color:aliceblue;
-      width: 325px;
-      height:50px;
-      border: 10px double black ;
-      margin: 0px 0px 0px 37%;
-      position:fixed;
-      top :0;
-      
-      /* border-style: ; */
-      padding: 7px  ; 
+      border: none ;
+      background:#454545;
+    }
+    .idea_cha{
+      font-size: 30px;
+      display:flex;
+    } 
+    .idea_con{
+      cursor:pointer;
+      margin: 0 10px;
     }
     .TTCN{
       border-width: 3px;
       border-style:solid;
-      margin-left:50px;
+      /* margin-left:47 px; */
 
     }
     body{
       height:1000px;
+    }
+    .tag{
+      border-style:none;
+      height:100%;
+      margin-top: 25px;
+      
+    }
+    .box2-cha{
+      flex-direction: column;
+      text-align:left;
+      width:20%;
+      background-color: #ffffff
+    }
+    .box2-con{
+      display:;
+      color:black;
+      flex-direction: column;
+      font-size: 15px;
+      transition: opacity .2s ease;
+      cursor:pointer;
+      text-decoration: none;
+      background-color: transparent;
+      border-style:none;
+
+    }
+    .iconli{
+      list-style:circle;
+    }
+    #h1_iconli{
+      text-align: center;
+      font-size: 20;
+      list-style: none;
+    }
+    .box2:hover{
+      opacity:0.8;
+    }
+    
+    .body_1{
+      width:80%;
+    }
+    #body_setup{
+      display:flex;
+    }
+    html{
+      background:#ebebeb;
     }
    
