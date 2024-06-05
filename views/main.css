@@ -55,6 +55,7 @@
       top :0;
       /* border-style: ; */
       padding: 0  ; 
+      z-index: 2;
     }
     .idea{
       color:#ffffff; 
@@ -88,13 +89,18 @@
       
     }
     .box2-cha{
+      /* cursor:pointer; */
+      justify-content:space-between ;
       flex-direction: column;
       text-align:left;
       width:20%;
-      background-color: #ffffff
+      background-color: #ffffff;
+      z-index:1;
+      position:sticky;
     }
     .box2-con{
-      display:;
+      /* position:relative; */
+      display:flex;
       color:black;
       flex-direction: column;
       font-size: 15px;
@@ -118,13 +124,14 @@
     }
     
     .body_1{
-      width:80%;
+      width: 100%;
+      background:#ebebeb; 
     }
     #body_setup{
       display:flex;
     }
     html{
-      background:#ebebeb;
+      /* background:#ebebeb; */
       
     }
 
