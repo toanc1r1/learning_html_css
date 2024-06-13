@@ -1,42 +1,50 @@
     <!DOCTYPE html>
     <html>
-        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
         <head >
            
             <title>learning</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="main.css">
-        
+
             <div  class="box1">
                 <div  class="idea"  title="feature is being updated"> 
                    <ul class="idea_cha">
-                       <a herf="" class="idea_con">Trang chủ </a>
-                       <a herf="" class="idea_con">giới thiệu</a>
-                       <a herf="" class="idea_con">thông tin liên hệ</a>
+                    <nav>
+                        <a class="idea_con" href="home.html" target="home_page">Home</a>
+                        <a class="idea_con" href="gioithieu.html" target="home_page">giới thiệu</a>
+                        <a class="idea_con" href="thongtinlienhe.html" target="home_page" >Thông tin liên hệ</a>
                    </ul> 
                    <ul class="idea_cha" class="login">
-                       <a herf="" class="idea_con">regiter</a>
-                       <a herf="" class="idea_con">login</a>
+                       <a herf="http://localhost:8080/register" class="idea_con">Regiter</a>
+                       <a herf="" class="idea_con">Login</a>
                    </ul>
+                </nav>
                 </div>
                </div>
-               <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+               <!-- <a href="https://www.facebook.com/reel/977122373243358">yez</a> -->
         </head>
             
         <body> 
+            
+            <script> src="./main.js"</script>
             <div class="tag" id="body_setup">
                 <ul  class="box2-cha">
                     <li id="h1_iconli">list nhạc bạn có thể thích </li>
-                    <li class="iconli"><a class="box2 box2-con" href="https://www.youtube.com/watch?v=6eONmnFB9sw">Chuyện Đôi Ta</a></li>
+                    <li class="iconli"><a class="box2 box2-con" href=""> ...</a></li>
                     <li class="iconli"><a class="box2 box2-con" href="https://www.youtube.com/watch?v=MDErQ1KTzaI&list=RDMDErQ1KTzaI&start_radio=1">HEARTSTEEL-PARANOIA</a>
                     <li class="iconli"><a class="box2 box2-con" href=""> ...</a></li>
                     <li class="iconli"><a class="box2 box2-con" href=""> ...</a></li>
                     <li class="iconli"><a class="box2 box2-con" href=""> ...</a></li>
                     <li class="iconli"><a class="box2 box2-con" href=""> ...</a></li>
                 </ul>
-                <ul class="body_1">
-                    <div>hi</div>
-                </ul>
+                <nav class="body_1">
+                    <div>
+                        <iframe name="home_page" class="home" src="home.html" frameborder="0"></iframe>
+                        <iframe name="gioithieu_page" class="goithieu" src="gioithieu.html" frameborder="1"></iframe>
+                        <iframe class="thongtinlienhe" src="thongtinlienhe.html" frameborder="2"></iframe>
+                    </div>
+                </nav>
             </div>
            
 <!--             
