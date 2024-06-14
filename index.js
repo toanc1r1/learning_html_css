@@ -8,7 +8,7 @@ app.set('view engine', 'html');
 app.use(express.static(__dirname + '/public'));
 
 var domain = process.env.DOMAIN || '';
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || felatenoly;
 
 app.get('/', function(req, res){
   res.render('index', {
